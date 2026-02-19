@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var n=prompt("enter number:");
+        if(n<=0||isNaN(n))
+        {
+            document.write("invalid");
+        }else{
+            msg="";
+            for(i=1;i<=n;i++)
+            {
+                msg=(msg+i+"^2="+i*i+"\n");
+            }
+            alert(msg)
+        }
+    </script>
+</body>
+</html>
